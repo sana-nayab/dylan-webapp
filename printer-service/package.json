@@ -1,0 +1,18 @@
+{
+  "name": "dylan-cafe-printer-service",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/worker.js",
+    "start": "node src/worker.js"
+  },
+  "dependencies": {
+    "redis": "^4.6.10",
+    "escpos": "^3.0.0-alpha.6",
+    "usb": "^2.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
